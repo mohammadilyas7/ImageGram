@@ -1,0 +1,15 @@
+You can add global styles to this file, and also import other style files
+img
+{
+    width:15%;
+    margin-top: 3%;
+    margin-left: 20px;
+
+    
+}
+
+  body
+  {
+    background-color: pink;
+  } 
+   

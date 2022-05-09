@@ -1,0 +1,32 @@
+ul
+{
+    /* display: flex; */
+    /* list-style: none; */
+
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 20px;
+}
+li
+{
+    margin-top: 3%;
+    margin-left: 20px;
+}
+img
+{
+    width: 200px;
+    margin-top: 3%;
+    margin-left: 20px;
+
+    /* transform: scale(1.1);  */
+}
+/* img:hover { */
+    /*-ms-transform: scale(1.1);    /*IE 9*/
+   /* -webkit-transform: scale(1.1); /*Safari 3-8*/
+    /* transform: scale(1.1); 
+  } */
+  @media screen and (min-width: 480px) {
+    #leftsidebar {float: left;}
+    /* #main {margin-left: 216px;} */
+  }
